@@ -1,0 +1,21 @@
+{
+  "name": "logitechcollabos",
+  "version": "1.0.0",
+  "description": "testing api calls from Logitech CollabOS",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "Patrick Gilligan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "axios-http2-adapter": "^1.0.1",
+    "dotenv": "^16.4.1",
+    "haxios": "^1.1.2",
+    "hpagent": "^1.2.0",
+    "nodemon": "^3.0.3"
+  }
+}
